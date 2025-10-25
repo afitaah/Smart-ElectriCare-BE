@@ -18,6 +18,7 @@ export interface BillDocument extends Document {
   created_by?: mongoose.Types.ObjectId;
   updatedAt?: Date;
 }
+
 const BillSchema = new Schema<BillDocument>({
   id: {
     type: String,
